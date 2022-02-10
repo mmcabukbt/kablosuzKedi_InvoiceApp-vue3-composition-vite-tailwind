@@ -1,0 +1,396 @@
+{
+  "users": [
+    {
+      "fullname": "Gökhan Kandemir",
+      "email": "gkandemir@gmail.com",
+      "password": "f506f813adfb309ae7c04a8430f07e1143eb1b559474ed153f3399f56baa857de7a98e004ba951bc706c9e16b2d7baaee81000302306bcc52616a5ae2d845a0c",
+      "added_at": 1643241225319,
+      "id": 0
+    },
+    {
+      "fullname": "Mehmet Çabuk",
+      "email": "mcabuk@gmail.com",
+      "password": "f506f813adfb309ae7c04a8430f07e1143eb1b559474ed153f3399f56baa857de7a98e004ba951bc706c9e16b2d7baaee81000302306bcc52616a5ae2d845a0c",
+      "added_at": 1643241225319,
+      "id": 1
+    },
+    {
+      "fullname": "Tayfun Erbilen1",
+      "email": "terbilen@gmail.com",
+      "password": "f506f813adfb309ae7c04a8430f07e1143eb1b559474ed153f3399f56baa857de7a98e004ba951bc706c9e16b2d7baaee81000302306bcc52616a5ae2d845a0c",
+      "added_at": 1643241225319,
+      "id": 2
+    },
+    {
+      "email": "mcabuk21@deneme.com",
+      "fullname": "Mehmet Çabuk2",
+      "password": "f506f813adfb309ae7c04a8430f07e1143eb1b559474ed153f3399f56baa857de7a98e004ba951bc706c9e16b2d7baaee81000302306bcc52616a5ae2d845a0c",
+      "added_at": 1643242774414,
+      "id": 4
+    }
+  ],
+  "bookmarks": [
+    {
+      "usersId": 0,
+      "title": "Vu3 DokümantasyonG",
+      "url": "http://localhost:3000/",
+      "categoriesId": 0,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur ea dolorem magni fuga porro quod expedita natus laboriosam! Cupiditate officia earum dolores deleniti sed itaque quibusdam odio iusto at! Rem.",
+      "likes": [
+        0,
+        4
+      ],
+      "favorites": [
+        4,
+        0,
+        2
+      ],
+      "added_at": 1643161470639,
+      "id": 0
+    },
+    {
+      "usersId": 1,
+      "title": "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+      "url": "#fdf",
+      "categoriesId": 0,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur ea dolorem magni fuga porro quod expedita natus laboriosam! Cupiditate officia earum dolores deleniti sed itaque quibusdam odio iusto at! Rem.",
+      "likes": [
+        4,
+        0,
+        2
+      ],
+      "favorites": [
+        4
+      ],
+      "added_at": 1643161470639,
+      "id": 1
+    },
+    {
+      "usersId": 2,
+      "title": "Vu3 Dokümantasyon",
+      "url": "#fdf",
+      "categoriesId": 0,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur ea dolorem magni fuga porro quod expedita natus laboriosam! Cupiditate officia earum dolores deleniti sed itaque quibusdam odio iusto at! Rem.",
+      "likes": [
+        4,
+        2
+      ],
+      "favorites": [
+        4,
+        0
+      ],
+      "added_at": 1643161470639,
+      "id": 2
+    },
+    {
+      "usersId": 1,
+      "title": "Vu3 Dokümantasyon1",
+      "url": "#fdf",
+      "categoriesId": 1,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur ea dolorem magni fuga porro quod expedita natus laboriosam! Cupiditate officia earum dolores deleniti sed itaque quibusdam odio iusto at! Rem.",
+      "likes": [
+        2
+      ],
+      "favorites": [
+        0,
+        2
+      ],
+      "added_at": 1643161470639,
+      "id": 3
+    },
+    {
+      "usersId": 1,
+      "title": "Vu3 Dokümantasyon3",
+      "url": "#fdf",
+      "categoriesId": 3,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur ea dolorem magni fuga porro quod expedita natus laboriosam! Cupiditate officia earum dolores deleniti sed itaque quibusdam odio iusto at! Rem.",
+      "likes": [
+        4,
+        2
+      ],
+      "favorites": [
+        0,
+        2
+      ],
+      "added_at": 1643161470639,
+      "id": 4
+    },
+    {
+      "usersId": 2,
+      "title": "Vu3 Dokümantasyon2",
+      "url": "#fdf",
+      "categoriesId": 2,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur ea dolorem magni fuga porro quod expedita natus laboriosam! Cupiditate officia earum dolores deleniti sed itaque quibusdam odio iusto at! Rem.",
+      "likes": [
+        0
+      ],
+      "favorites": [
+        2,
+        0,
+        4
+      ],
+      "added_at": 1643161470639,
+      "id": 6
+    },
+    {
+      "usersId": 1,
+      "title": "fdsafads",
+      "url": "#fdf",
+      "categoriesId": 7,
+      "description": "fadsfsdfds",
+      "likes": [
+        4
+      ],
+      "favorites": [],
+      "added_at": 1643161470639,
+      "id": 7
+    },
+    {
+      "usersId": 2,
+      "title": "gggg ggg g ggg gggg gggg gggg ggg g ggg gggg gggg gggg ggg g ggg gggg gggg gggg ggg g ggg gggg gggg gggg ggg g ggg gggg gggg ",
+      "url": "https://",
+      "categoriesId": 4,
+      "description": "gggg ggg g ggg gggg gggg gggg ggg g ggg gggg gggg gggg ggg g ggg gggg gggg gggg ggg g ggg gggg gggg ",
+      "likes": [
+        4
+      ],
+      "favorites": [
+        2,
+        0
+      ],
+      "added_at": 1643322239287,
+      "id": 8
+    },
+    {
+      "usersId": 2,
+      "title": "gggg ggg g ggg gggg gggg ",
+      "url": "https://",
+      "categoriesId": 1,
+      "description": "gggg ggg g ggg gggg gggg gggg ggg g ggg gggg gggg gggg ggg g ggg gggg gggg gggg ggg g ggg gggg gggg ",
+      "likes": [],
+      "favorites": [
+        2
+      ],
+      "added_at": 1643322262031,
+      "id": 9
+    },
+    {
+      "usersId": 2,
+      "title": "gggg ggg g ggg gggg gggg gggg ggg g ggg gggg gggg ",
+      "url": "https://",
+      "categoriesId": 2,
+      "description": "gggg ggg g ggg gggg gggg gggg ggg g ggg gggg gggg gggg ggg g ggg gggg gggg gggg ggg g ggg gggg gggg ",
+      "likes": [],
+      "favorites": [
+        2
+      ],
+      "added_at": 1643322275575,
+      "id": 10
+    },
+    {
+      "usersId": 4,
+      "title": "aaaa",
+      "url": "http://localhost:3000/",
+      "categoriesId": 2,
+      "description": "asdfa dfa",
+      "likes": [
+        2,
+        0,
+        4
+      ],
+      "favorites": [
+        0
+      ],
+      "added_at": 1643586125857,
+      "id": 11
+    },
+    {
+      "usersId": 4,
+      "title": "bbbb",
+      "url": "http://localhost:3000/",
+      "categoriesId": 1,
+      "description": "bbbbbbbb",
+      "likes": [],
+      "favorites": [],
+      "added_at": 1643586139056,
+      "id": 12
+    },
+    {
+      "usersId": 0,
+      "title": "jjjj jjjj jj jj jj jjjjjjjjj jjjj jj jj jj jjjjjjjjj jjjj jj jj jj jjjjjjjjj jjjj jj jj jj jjjjjjjjj jjjj jj jj jj jjjjjjjjj jjjj jj jj jj jjjjj",
+      "url": "http://localhost:3000/",
+      "categoriesId": 3,
+      "description": "jjjj jjjj jj jj jj jjjjjjjjj jjjj jj jj jj jjjjjjjjj jjjj jj jj jj jjjjjjjjj jjjj jj jj jj jjjjjjjjj jjjj jj jj jj jjjjjjjjj jjjj jj jj jj jjjjjjjjj jjjj jj jj jj jjjjjjjjj jjjj jj jj jj jjjjjjjjj jjjj jj jj jj jjjjj",
+      "likes": [
+        2
+      ],
+      "favorites": [
+        2
+      ],
+      "added_at": 1643586628858,
+      "id": 16
+    },
+    {
+      "usersId": 0,
+      "title": "fffff ffff ffffff ffff ffffd fffff ffff ffffff ffff ffffd fffff ffff ffffff ffff ffffd fffff ffff ffffff ffff ffffd fffff ffff ffffff ffff ffffd ",
+      "url": "http://localhost:3000/",
+      "categoriesId": 6,
+      "description": "fffff ffff ffffff ffff ffffd fffff ffff ffffff ffff ffffd fffff ffff ffffff ffff ffffd fffff ffff ffffff ffff ffffd fffff ffff ffffff ffff ffffd fffff ffff ffffff ffff ffffd fffff ffff ffffff ffff ffffd fffff ffff ffffff ffff ffffd fffff ffff ffffff ffff ",
+      "likes": [],
+      "favorites": [
+        2
+      ],
+      "added_at": 1643586662762,
+      "id": 17
+    },
+    {
+      "usersId": 0,
+      "title": "poıoooı ııol ıu uıouıou ıouıouıouı uıouıuıouı",
+      "url": "http://localhost:3000/",
+      "categoriesId": 4,
+      "description": "fgdfgfg dfgfgdts rtsdrtertfg dfgfgdts rtsdrtertfg dfgfgdts rtsdrtertfg dfgfgdts rtsdrtertfg dfgfgdts rtsdrtertfg dfgfgdts rtsdrtertfg dfgfgdts rtsdrtertfg dfgfgdts rtsdrtertfg dfgfgdts rtsdrtertfg dfgfgdts rtsdrtert",
+      "likes": [],
+      "favorites": [
+        2
+      ],
+      "added_at": 1643587790585,
+      "id": 20
+    },
+    {
+      "usersId": 0,
+      "title": "cxvxcvxcvcxv",
+      "url": "http://localhost:3000/",
+      "categoriesId": 8,
+      "description": "xcvxcvxcvxcv",
+      "likes": [
+        0
+      ],
+      "favorites": [
+        2,
+        4
+      ],
+      "added_at": 1644283577851,
+      "id": 21
+    },
+    {
+      "usersId": 0,
+      "title": "bbbbbbb0001111",
+      "url": "http://localhost:3000/0011",
+      "categoriesId": 0,
+      "description": "bbvbcvbcvbcvbcvbcv00000111",
+      "likes": [],
+      "favorites": [],
+      "added_at": 1644355631385,
+      "id": 23
+    },
+    {
+      "usersId": 0,
+      "title": "bbbbbbb11111",
+      "url": "http://localhost:3000/1111",
+      "categoriesId": 1,
+      "description": "bbvbcvbcvbcvbcvbcv11111",
+      "likes": [],
+      "favorites": [],
+      "added_at": 1644355792228,
+      "id": 25
+    },
+    {
+      "usersId": 0,
+      "title": "bbbbbbb12121212222",
+      "url": "http://localhost:3000/1212222",
+      "categoriesId": 1,
+      "description": "bbvbcvbcvbcvbcvbcv121212122222",
+      "likes": [],
+      "favorites": [],
+      "added_at": 1644355973333,
+      "id": 27
+    },
+    {
+      "usersId": 0,
+      "title": "jjjjjjjj",
+      "url": "http://localhost:3000/2jjjjjjjjjjjjj",
+      "categoriesId": 3,
+      "description": "jjjjjjjjjjjj",
+      "likes": [],
+      "favorites": [],
+      "added_at": 1644357016743,
+      "id": 35
+    },
+    {
+      "usersId": 0,
+      "title": "zxczcxxcz",
+      "url": "http://localhost:3000/334343",
+      "categoriesId": 5,
+      "description": "bbvbcvbcvbcvbcvbcv34343",
+      "likes": [],
+      "favorites": [],
+      "added_at": 1644357319865,
+      "id": 37
+    },
+    {
+      "usersId": 0,
+      "title": "aa123",
+      "url": "http://localhost:3000/a123",
+      "categoriesId": 2,
+      "description": "bbvbcvbcvba123",
+      "likes": [
+        2
+      ],
+      "favorites": [],
+      "added_at": 1644357339569,
+      "id": 38
+    },
+    {
+      "usersId": 4,
+      "title": "aaaaaa",
+      "url": "http://localhost:3000/a",
+      "categoriesId": 2,
+      "description": "aaaaaaaaaaa",
+      "likes": [
+        4,
+        2
+      ],
+      "favorites": [],
+      "added_at": 1644455700941,
+      "id": 39
+    }
+  ],
+  "categories": [
+    {
+      "name_": "Vue",
+      "id": 0
+    },
+    {
+      "name_": "React",
+      "id": 1
+    },
+    {
+      "name_": "Angular",
+      "id": 2
+    },
+    {
+      "name_": "Javascript",
+      "id": 3
+    },
+    {
+      "name_": "HTML",
+      "id": 4
+    },
+    {
+      "name_": "CSS",
+      "id": 5
+    },
+    {
+      "name_": "Frontend",
+      "id": 6
+    },
+    {
+      "name_": "Backend",
+      "id": 7
+    },
+    {
+      "name_": "Social",
+      "id": 8
+    }
+  ]
+}
