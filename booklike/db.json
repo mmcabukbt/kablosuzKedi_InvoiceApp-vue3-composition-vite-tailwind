@@ -37,8 +37,8 @@
       "categoriesId": 0,
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur ea dolorem magni fuga porro quod expedita natus laboriosam! Cupiditate officia earum dolores deleniti sed itaque quibusdam odio iusto at! Rem.",
       "likes": [
-        0,
-        4
+        4,
+        0
       ],
       "favorites": [
         4,
@@ -56,11 +56,12 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur ea dolorem magni fuga porro quod expedita natus laboriosam! Cupiditate officia earum dolores deleniti sed itaque quibusdam odio iusto at! Rem.",
       "likes": [
         4,
-        0,
-        2
+        2,
+        0
       ],
       "favorites": [
-        4
+        4,
+        0
       ],
       "added_at": 1643161470639,
       "id": 1
@@ -122,7 +123,8 @@
       "categoriesId": 2,
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur ea dolorem magni fuga porro quod expedita natus laboriosam! Cupiditate officia earum dolores deleniti sed itaque quibusdam odio iusto at! Rem.",
       "likes": [
-        0
+        0,
+        4
       ],
       "favorites": [
         2,
@@ -139,9 +141,12 @@
       "categoriesId": 7,
       "description": "fadsfsdfds",
       "likes": [
-        4
+        4,
+        0
       ],
-      "favorites": [],
+      "favorites": [
+        0
+      ],
       "added_at": 1643161470639,
       "id": 7
     },
@@ -169,7 +174,9 @@
       "description": "gggg ggg g ggg gggg gggg gggg ggg g ggg gggg gggg gggg ggg g ggg gggg gggg gggg ggg g ggg gggg gggg ",
       "likes": [],
       "favorites": [
-        2
+        2,
+        4,
+        0
       ],
       "added_at": 1643322262031,
       "id": 9
@@ -180,7 +187,9 @@
       "url": "https://",
       "categoriesId": 2,
       "description": "gggg ggg g ggg gggg gggg gggg ggg g ggg gggg gggg gggg ggg g ggg gggg gggg gggg ggg g ggg gggg gggg ",
-      "likes": [],
+      "likes": [
+        0
+      ],
       "favorites": [
         2
       ],
@@ -211,7 +220,9 @@
       "categoriesId": 1,
       "description": "bbbbbbbb",
       "likes": [],
-      "favorites": [],
+      "favorites": [
+        0
+      ],
       "added_at": 1643586139056,
       "id": 12
     },
@@ -222,10 +233,12 @@
       "categoriesId": 3,
       "description": "jjjj jjjj jj jj jj jjjjjjjjj jjjj jj jj jj jjjjjjjjj jjjj jj jj jj jjjjjjjjj jjjj jj jj jj jjjjjjjjj jjjj jj jj jj jjjjjjjjj jjjj jj jj jj jjjjjjjjj jjjj jj jj jj jjjjjjjjj jjjj jj jj jj jjjjjjjjj jjjj jj jj jj jjjjj",
       "likes": [
-        2
+        2,
+        0
       ],
       "favorites": [
-        2
+        2,
+        0
       ],
       "added_at": 1643586628858,
       "id": 16
@@ -249,7 +262,9 @@
       "url": "http://localhost:3000/",
       "categoriesId": 4,
       "description": "fgdfgfg dfgfgdts rtsdrtertfg dfgfgdts rtsdrtertfg dfgfgdts rtsdrtertfg dfgfgdts rtsdrtertfg dfgfgdts rtsdrtertfg dfgfgdts rtsdrtertfg dfgfgdts rtsdrtertfg dfgfgdts rtsdrtertfg dfgfgdts rtsdrtertfg dfgfgdts rtsdrtert",
-      "likes": [],
+      "likes": [
+        0
+      ],
       "favorites": [
         2
       ],
@@ -279,7 +294,9 @@
       "categoriesId": 0,
       "description": "bbvbcvbcvbcvbcvbcv00000111",
       "likes": [],
-      "favorites": [],
+      "favorites": [
+        0
+      ],
       "added_at": 1644355631385,
       "id": 23
     },
@@ -290,7 +307,9 @@
       "categoriesId": 1,
       "description": "bbvbcvbcvbcvbcvbcv11111",
       "likes": [],
-      "favorites": [],
+      "favorites": [
+        0
+      ],
       "added_at": 1644355792228,
       "id": 25
     },
@@ -322,7 +341,9 @@
       "url": "http://localhost:3000/334343",
       "categoriesId": 5,
       "description": "bbvbcvbcvbcvbcvbcv34343",
-      "likes": [],
+      "likes": [
+        0
+      ],
       "favorites": [],
       "added_at": 1644357319865,
       "id": 37
@@ -334,9 +355,12 @@
       "categoriesId": 2,
       "description": "bbvbcvbcvba123",
       "likes": [
-        2
+        2,
+        0
       ],
-      "favorites": [],
+      "favorites": [
+        0
+      ],
       "added_at": 1644357339569,
       "id": 38
     },
@@ -353,6 +377,52 @@
       "favorites": [],
       "added_at": 1644455700941,
       "id": 39
+    },
+    {
+      "usersId": 4,
+      "title": "mmm",
+      "url": "http://localhost:3000/m",
+      "categoriesId": 5,
+      "description": "mmmmmmmmmm",
+      "likes": [],
+      "favorites": [
+        4
+      ],
+      "added_at": 1644537203162,
+      "id": 40
+    },
+    {
+      "usersId": 4,
+      "title": "nnnbnbn",
+      "url": "http://localhost:3000/nbn",
+      "categoriesId": 6,
+      "description": "nbnbnb",
+      "likes": [],
+      "favorites": [],
+      "added_at": 1644537468298,
+      "id": 41
+    },
+    {
+      "usersId": 2,
+      "title": "ttttt",
+      "url": "http://localhost:3000/tt",
+      "categoriesId": 3,
+      "description": "ttttt",
+      "likes": [],
+      "favorites": [],
+      "added_at": 1644538597773,
+      "id": 42
+    },
+    {
+      "usersId": 0,
+      "title": "oıuoıuoıuo",
+      "url": "http://localhost:3000/gg",
+      "categoriesId": 6,
+      "description": "oıuoyıouıo",
+      "likes": [],
+      "favorites": [],
+      "added_at": 1644538941757,
+      "id": 43
     }
   ],
   "categories": [

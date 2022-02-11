@@ -8,11 +8,15 @@ import AppSidebar from './components/AppComponents/AppSidebar.vue';
 import NewBookmarkModal from './components/Modals/NewBookmarkModal.vue'
 import EditBookmarkModal from './components/Modals/EditBookmarkModal.vue'
 import { axiosBase } from './services/axios';
+import prepareSocket from './services/socket';
 
 const app = createApp(App);
+const socket = prepareSocket(store);
+
 app.use(store);
 app.use(router);
 app.provide("AppAxios", axiosBase);
+app.provide("socket", socket);
 app.component('AppHeader', AppHeader);
 app.component('AppSidebar', AppSidebar);
 app.component('NewBookmarkModal', NewBookmarkModal);

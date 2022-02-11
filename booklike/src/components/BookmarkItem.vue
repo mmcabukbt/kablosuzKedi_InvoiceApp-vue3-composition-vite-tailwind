@@ -6,6 +6,7 @@ import { useStore } from "vuex";
 const { getters, commit } = useStore();
 const router = useRouter();
 const AppAxios = inject('AppAxios');
+const socket = inject('socket');
 const yerel_options = { weekday: 'short', month: 'long', day: 'numeric' };
 const props = defineProps({
 	bookmarkItem: Object,
@@ -13,7 +14,7 @@ const props = defineProps({
 
 const likesClick = () => {
 	if (!getters.isAuthenticated_) {
-		return window.confirm("\nBu işlemi gerçekleştirmek için Giriş yapmanız gerekmektedir.\n\nGiriş sayfasına gitmek ister misiniz?") ?
+		return window.confirm("\nBu işlemi gerçekleştirebilmek için Giriş yapmalısınız.\n\nGiriş sayfasına gitmek ister misiniz?") ?
 			router.push({ name: "LoginPage" })
 			: false;
 	}
@@ -21,13 +22,14 @@ const likesClick = () => {
 	props.bookmarkItem.likes = props.bookmarkItem.likes.filter(likeId => likeId !== getters.getUser_?.id);
 	if (likesCount === props.bookmarkItem.likes.length) { props.bookmarkItem.likes.push(getters.getUser_?.id) };
 	AppAxios.patch(`/bookmarks/${props.bookmarkItem.id}`, { likes: props.bookmarkItem.likes }).then(response => {
+		socket.emit("BM_EDITED", props.bookmarkItem);
 		commit("EDIT_BOOKMARKITEM", props.bookmarkItem);
 	});
 }
 
 const favoritesClick = () => {
 	if (!getters.isAuthenticated_) {
-		return window.confirm("\nBu işlemi gerçekleştirmek için Giriş yapmanız gerekmektedir.\n\nGiriş sayfasına gitmek ister misiniz?") ?
+		return window.confirm("\nBu işlemi gerçekleştirebilmek için Giriş yapmalısınız.\n\nGiriş sayfasına gitmek ister misiniz?") ?
 			router.push({ name: "LoginPage" })
 			: false;
 	}
@@ -35,6 +37,7 @@ const favoritesClick = () => {
 	props.bookmarkItem.favorites = props.bookmarkItem.favorites.filter(favoriteId => favoriteId !== getters.getUser_?.id);
 	if (favoritesCount === props.bookmarkItem.favorites.length) { props.bookmarkItem.favorites.push(getters.getUser_?.id) };
 	AppAxios.patch(`/bookmarks/${props.bookmarkItem.id}`, { favorites: props.bookmarkItem.favorites }).then(response => {
+		socket.emit("BM_EDITED", props.bookmarkItem);
 		commit("EDIT_BOOKMARKITEM", props.bookmarkItem);
 	});
 }
@@ -47,6 +50,7 @@ const deleteBookmarkClick = () => {
 
 ${props.bookmarkItem.title} başlıklı Bookmarkı silmek istediğinize emin misiniz?`)) return
 	AppAxios.delete(`/bookmarks/${props.bookmarkItem.id}`).then(b => {
+		socket.emit("BM_DELETED", props.bookmarkItem);
 		commit('DELETE_BOOKMARKITEM', props.bookmarkItem)
 	});
 }
