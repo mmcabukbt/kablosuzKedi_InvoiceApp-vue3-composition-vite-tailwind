@@ -14,7 +14,7 @@ const props = defineProps({
 
 const likesClick = () => {
 	if (!getters.isAuthenticated_) {
-		return window.confirm("\nBu işlemi gerçekleştirebilmek için Giriş yapmalısınız.\n\nGiriş sayfasına gitmek ister misiniz?") ?
+		return window.confirm("\n⛔ Bu işlemi gerçekleştirebilmek için Giriş yapmalısınız.\n\nGiriş sayfasına gitmek ister misiniz?") ?
 			router.push({ name: "LoginPage" })
 			: false;
 	}
@@ -29,7 +29,7 @@ const likesClick = () => {
 
 const favoritesClick = () => {
 	if (!getters.isAuthenticated_) {
-		return window.confirm("\nBu işlemi gerçekleştirebilmek için Giriş yapmalısınız.\n\nGiriş sayfasına gitmek ister misiniz?") ?
+		return window.confirm("\n⛔ Bu işlemi gerçekleştirebilmek için Giriş yapmalısınız.\n\nGiriş sayfasına gitmek ister misiniz?") ?
 			router.push({ name: "LoginPage" })
 			: false;
 	}

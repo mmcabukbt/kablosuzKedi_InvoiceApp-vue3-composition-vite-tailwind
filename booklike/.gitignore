@@ -3,5 +3,5 @@ node_modules
 dist
 dist-ssr
 *.local
-.env
+.env_
 __modals____.vue
